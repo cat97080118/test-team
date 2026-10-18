@@ -1,0 +1,89 @@
+{
+  "courses": [
+    {
+      "course_id": "CS101",
+      "course_name": "Python程式設計",
+      "credits": 3,
+      "teacher": "張教授",
+      "member_limit": 50,
+      "class_time": [
+        {"week": 2, "section": "3"},
+        {"week": 2, "section": "4"},
+        {"week": 2, "section": "5"}
+      ],
+      "is_required": 1
+    },
+    {
+      "course_id": "MA101",
+      "course_name": "微積分(一)",
+      "credits": 4,
+      "teacher": "李教授",
+      "member_limit": 60,
+      "class_time": [
+        {"week": 1, "section": "7"},
+        {"week": 1, "section": "8"},
+        {"week": 3, "section": "7"},
+        {"week": 3, "section": "8"}
+      ],
+      "is_required": 1
+    },
+    {
+      "course_id": "GE205",
+      "course_name": "生活與法律",
+      "credits": 2,
+      "teacher": "王律師",
+      "member_limit": 100,
+      "class_time": [
+        {"week": 5, "section": "a"},
+        {"week": 5, "section": "b"}
+      ],
+      "is_required": 0
+    },
+    {
+      "course_id": "HOMO",
+      "course_name": "fake class",
+      "credits": 114514,
+      "teacher": "田所浩二",
+      "member_limit": 114514,
+      "class_time": [
+        {"week": 1, "section": "9"},
+        {"week": 2, "section": "3"}
+      ],
+      "is_required": 0
+    }
+  ],
+  "students": [
+    {
+      "student_id": "S001",
+      "name": "王小明",
+      "department": "資工系1A",
+      "enrolled_class": ["CS101", "MA101"],
+      "enrolled_activity": [],
+      "credits_max": 25,
+      "credits_min": 12
+    },
+    {
+      "student_id": "S002",
+      "name": "陳大鈞",
+      "department": "電機系2B",
+      "enrolled_class": ["GE205"],
+      "enrolled_activity": [],
+      "credits_max": 24,
+      "credits_min": 10
+    }
+  ],
+  "classrooms": [
+    {
+      "classroom_id": "C201",
+      "room_time": [],
+      "room_equipment": "單槍投影機, 擴音設備",
+      "room_capacity": 65
+    },
+    {
+      "classroom_id": "LAB305",
+      "room_time": [],
+      "room_equipment": "電腦, 廣播系統",
+      "room_capacity": 50
+    }
+  ]
+}
