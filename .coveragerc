@@ -1,0 +1,8 @@
+[run]
+omit =
+    */tests/*
+    main.py
+    f1_add/*
+    F1_search/F1_search.py
+    F1_search/menu.py
+    f1_edit/validator.py
